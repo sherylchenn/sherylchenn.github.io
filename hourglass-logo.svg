@@ -1,0 +1,31 @@
+<svg width="64" height="64" viewBox="0 0 64 64" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="hourglassGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#D4A574"/>
+      <stop offset="50%" style="stop-color:#B8956A"/>
+      <stop offset="100%" style="stop-color:#A67C52"/>
+    </linearGradient>
+    <linearGradient id="sandGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#E8C4A0"/>
+      <stop offset="100%" style="stop-color:#D4A574"/>
+    </linearGradient>
+  </defs>
+  
+  <!-- Background rounded rectangle -->
+  <rect width="64" height="64" rx="12" ry="12" fill="#F5E6D3"/>
+  
+  <!-- Hourglass frame -->
+  <path d="M16 12 L48 12 L48 20 L32 32 L48 44 L48 52 L16 52 L16 44 L32 32 L16 20 Z" 
+        fill="url(#hourglassGradient)" 
+        stroke="#8B6914" 
+        stroke-width="2"/>
+  
+  <!-- Sand in top -->
+  <path d="M20 16 L44 16 L44 18 L32 28 L20 18 Z" fill="url(#sandGradient)"/>
+  
+  <!-- Sand in bottom -->
+  <path d="M20 46 L32 36 L44 46 L44 48 L20 48 Z" fill="url(#sandGradient)"/>
+  
+  <!-- Center constraint -->
+  <ellipse cx="32" cy="32" rx="2" ry="1" fill="#8B6914"/>
+</svg> 

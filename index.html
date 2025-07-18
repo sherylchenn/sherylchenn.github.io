@@ -1,1 +1,229 @@
-Hello World
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sheryl Chen - Software Engineer</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300;400;500;600;700&family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <div class="nav-logo">
+                Sheryl Chen
+            </div>
+            <ul class="nav-menu">
+                <li class="nav-item">
+                    <a href="#home" class="nav-link">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#portfolio" class="nav-link">Portfolio</a>
+                </li>
+            </ul>
+            <div class="hamburger">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Home Section -->
+    <section id="home" class="section home-section">
+        <div class="container">
+            <div class="home-content">
+                <div class="profile-container">
+                    <div class="profile-image">
+                        <img src="sheryl_photo.png" alt="Sheryl Chen" id="profile-pic">
+                        <div class="image-border"></div>
+                    </div>
+                </div>
+                <div class="home-text">
+                    <h1 class="glitch" data-text="Sheryl Chen">Sheryl Chen</h1>
+                    <h2 class="subtitle">B.S. Computer Science & History Minor<br><span class="university-name">Stanford University</span></h2>
+                    <div class="bio">
+                        <p>Hello! I'm a Computer Science student at Stanford University with a concentration in AI. I'm passionate about building innovative solutions and machine learning. When I'm not working on projects, you'll find me mentoring students, analyzing startup trends, or organizing tech events. I love podcasts, being active, Trader Joe's, and a good (WiFi-included) coffee shop.</p>
+                        <p>I am also passionate about history and politics, and strive to contribute to a culture of critical inquiry and free expression. As a 2025-26 ICDP Fellow, I'm dedicated to advancing democratic values through a nationwide college-student discourse.</p>
+                        <p>Email: sherylch [at] stanford [dot] edu</p>
+                    </div>
+                    <div class="social-links">
+                        <a href="https://github.com/sherylchenn" target="_blank" class="social-link">
+                            <i class="fab fa-github"></i>
+                            <span>GitHub</span>
+                        </a>
+                        <a href="https://www.linkedin.com/in/sheryl-chen-489b892a1/" target="_blank" class="social-link">
+                            <i class="fab fa-linkedin"></i>
+                            <span>LinkedIn</span>
+                        </a>
+                        <a href="mailto:sherylch@stanford.edu" class="social-link">
+                            <i class="fas fa-envelope"></i>
+                            <span>Email</span>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Portfolio Section -->
+    <section id="portfolio" class="section portfolio-section">
+        <div class="container">
+            <div class="section-header">
+                <h2>Portfolio</h2>
+            </div>
+
+            <!-- Experience Subsection -->
+            <div class="subsection">
+                <h3 class="subsection-title">
+                    <i class="fas fa-briefcase"></i>
+                    Work Experience
+                </h3>
+                <div class="timeline">
+                    <div class="timeline-item">
+                        <div class="timeline-marker"></div>
+                        <div class="timeline-content">
+                            <h4>Software Developer</h4>
+                            <p class="company">Stanford Organ Lab</p>
+                            <p class="duration">April 2025 - Present</p>
+                            <p class="description">Developing a React/Chart.js/Mapbox GL frontend with Flask/Pandas backend to aggregate and visualize official U.S. organ transplant network data across 5+ years and 260+ centers for interactive performance analytics.</p>
+                        </div>
+                    </div>
+                    <div class="timeline-item">
+                        <div class="timeline-marker"></div>
+                        <div class="timeline-content">
+                            <h4>Software Developer</h4>
+                            <p class="company">Rézme</p>
+                            <p class="duration">November 2024 - February 2025</p>
+                            <p class="description">Developed a web application for candidate record warehousing and specialized LinkedIn-like profile generation. Helped ship a fair-change compliance app that won the NBA All-Star Competition.</p>
+                        </div>
+                    </div>
+                    <div class="timeline-item">
+                        <div class="timeline-marker"></div>
+                        <div class="timeline-content">
+                            <h4>Project Manager and Founding Engineer</h4>
+                            <p class="company">Fundusol (Department of Energy backed Agrivoltaics startup)</p>
+                            <p class="duration">January 2024 - September 2024</p>
+                            <p class="description">Acquired multiple international clients with >20 gigawatts combined gross installed capacity. Conducted extensive market research and developed a 10,000-variable Python financial model. Developed a PV-system simulation UI using Django/Redis/Celery.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Research Subsection -->
+            <div class="subsection">
+                <h3 class="subsection-title">
+                    <i class="fas fa-flask"></i>
+                    Research & Projects
+                </h3>
+                <div class="research-items">
+                    <div class="research-item">
+                        <h4>Machine Learning Researcher</h4>
+                        <p class="research-lab">Stanford School of Engineering </p>
+                        <p class="research-duration">January 2025 - June 2025</p>
+                        <p class="research-description">Built a Shannon-entropy-based hallucination detector using Bi-LSTM, achieving macro-F1 of 0.68—outperforming existing LLM benchmarks. Submitted to IEEE and NeurIPS.</p>
+                        <div class="research-tags">
+                            <span class="research-tag">Machine Learning</span>
+                            <span class="research-tag">NLP</span>
+                            <span class="research-tag">Bi-LSTM</span>
+                            <span class="research-tag">Hallucination Detection</span>
+                        </div>
+                        <div class="project-links" style="margin-top: 1rem;">
+                            <a href="https://arxiv.org/abs/2503.18242" target="_blank" style="color: var(--accent-coral); text-decoration: none;">
+                                <i class="fas fa-external-link-alt"></i> ArXiv Paper
+                            </a>
+                        </div>
+                    </div>
+                    <div class="research-item">
+                        <div class="project-header">
+                            <img src="hourglass-logo.svg" alt="Hourglass App Logo" class="project-logo">
+                            <h4>Hourglass - iOS Productivity App</h4>
+                        </div>
+                        <p class="research-lab">Hourglass</p>
+                        <p class="research-duration">April 2025 - June 2025</p>
+                        <p class="research-description">Built Hourglass, an iOS productivity app that gamifies daily time tracking through social accountability and visual progress sharing.</p>
+                        <div class="research-tags">
+                            <span class="research-tag">iOS Development</span>
+                            <span class="research-tag">SwiftUI</span>
+                            <span class="research-tag">Firebase</span>
+                            <span class="research-tag">Social Features</span>
+                        </div>
+                        <div class="project-links" style="margin-top: 1rem;">
+                            <a href="https://github.com/tonywangs/cs278-final-project" target="_blank" style="color: var(--accent-coral); text-decoration: none;">
+                                <i class="fab fa-github"></i> GitHub Repository
+                            </a>
+                        </div>
+                    </div>
+                    <div class="research-item">
+                        <h4>NLP Researcher</h4>
+                        <p class="research-lab">Stanford King Center</p>
+                        <p class="research-duration">January 2024 - June 2024</p>
+                        <p class="research-description">Assisted on various projects, including using LLMs to identify racial bias in German police reports and using computer vision for data collection. Presented at 2024 Stanford Global Development Research Symposium.</p>
+                        <div class="research-tags">
+                            <span class="research-tag">NLP</span>
+                            <span class="research-tag">Computer Vision</span>
+                            <span class="research-tag">Bias Detection</span>
+                            <span class="research-tag">LLMs</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Leadership Experience -->
+            <div class="subsection">
+                <h3 class="subsection-title">
+                    <i class="fas fa-users"></i>
+                    Leadership & Other Experience
+                </h3>
+                <div class="timeline">
+                    <div class="timeline-item">
+                        <div class="timeline-marker"></div>
+                        <div class="timeline-content">
+                            <h4>Researcher Intern</h4>
+                            <p class="company"><a href="https://chapterone.com/" target="_blank" style="color: var(--accent-coral); text-decoration: none;"><i class="fas fa-external-link-alt"></i> Chapter One</a> (Venture firm backed by Sequoia, KP, a16z, Bessemer, etc.)</p>
+                            <p class="duration">June 2025 - Present</p>
+                            <p class="description">Analyzing startup trends and shaping the editorial direction of <a href="https://www.newinternet.tech/" target="_blank" style="color: var(--accent-coral); text-decoration: none;"><i class="fas fa-external-link-alt"></i> 'New Internet'</a>.</p>
+                        </div>
+                    </div>
+                    <div class="timeline-item">
+                        <div class="timeline-marker"></div>
+                        <div class="timeline-content">
+                            <h4>Software and Events Intern</h4>
+                            <p class="company"><a href="https://stanfordangels.us/" target="_blank" style="color: var(--accent-coral); text-decoration: none;"><i class="fas fa-external-link-alt"></i> Stanford Angels & Entrepreneurs United</a></p>
+                            <p class="duration">June 2025 - Present</p>
+                            <p class="description">Developer and events intern at SA&EU, a vibrant network of 1,500+ members. We have hosted events with major VC firms like the AI Fund and Tau Ventures. I have also helped organize and attract/assess startups for our bi-monthly Pitch Events, and also renovated our website.</p>
+                        </div>
+                    </div>
+                    <div class="timeline-item">
+                        <div class="timeline-marker"></div>
+                        <div class="timeline-content">
+                            <h4>Project Management Mentor</h4>
+                            <p class="company"><a href="https://streetcode.org/" target="_blank" style="color: var(--accent-coral); text-decoration: none;"><i class="fas fa-external-link-alt"></i> StreetCode Academy</a></p>
+                            <p class="duration">January 2024 - April 2024</p>
+                            <p class="description">Taught class to 20 adult learners on project life cycles, Agile/Scrum methodology, and tools like Jira/Trello.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <p>&copy; 2024 Sheryl Chen. </p>
+                <div class="footer-links">
+                    <a href="#home">Back to Top</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
