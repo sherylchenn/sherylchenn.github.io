@@ -574,6 +574,49 @@ p {
     font-weight: 500;
 }
 
+/* Books Section */
+.books-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    gap: 1.5rem;
+    margin-top: 1rem;
+}
+
+.book-item {
+    background: var(--light-peach);
+    padding: 1.5rem;
+    border-radius: var(--border-radius);
+    box-shadow: 0 4px 20px var(--shadow-soft);
+    transition: var(--transition);
+    text-align: center;
+    border: 2px solid transparent;
+}
+
+.book-item:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 30px var(--shadow-medium);
+    border-color: var(--medium-peach);
+    background: var(--soft-peach);
+}
+
+.book-item h4 {
+    font-family: 'Space Grotesk', sans-serif;
+    color: var(--text-dark);
+    margin-bottom: 0.5rem;
+    font-weight: 600;
+    font-size: 1.2rem;
+    line-height: 1.3;
+}
+
+.book-author {
+    font-family: 'Inter', sans-serif;
+    color: var(--accent-coral);
+    font-style: italic;
+    font-weight: 500;
+    margin-bottom: 0;
+    font-size: 0.95rem;
+}
+
 /* Personal Section */
 .personal-section {
     background: var(--light-peach);
@@ -790,6 +833,11 @@ p {
 
     .projects-grid {
         grid-template-columns: 1fr;
+    }
+
+    .books-grid {
+        grid-template-columns: 1fr;
+        gap: 1rem;
     }
 
     .interests-grid {
