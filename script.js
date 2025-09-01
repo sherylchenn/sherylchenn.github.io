@@ -288,12 +288,7 @@ document.addEventListener('DOMContentLoaded', () => {
     initPageLoadAnimation();
 });
 
-// Event Listeners
-window.addEventListener('scroll', () => {
-    updateActiveNav();
-    updateScrollProgress();
-    animateOnScroll();
-});
+// Event Listeners - Using throttled version only for better performance
 
 // Resize handler for mobile menu
 window.addEventListener('resize', () => {
@@ -331,4 +326,4 @@ const throttledScrollHandler = throttle(() => {
     animateOnScroll();
 }, 16); // ~60fps
 
-window.addEventListener('scroll', throttledScrollHandler); 
+window.addEventListener('scroll', throttledScrollHandler);  
