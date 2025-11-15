@@ -663,29 +663,6 @@ p {
     gap: 1.5rem;
 }
 
-.podcast-item {
-    padding: 1rem;
-    background: var(--light-peach);
-    border-radius: var(--border-radius);
-    transition: var(--transition);
-}
-
-.podcast-item:hover {
-    background: var(--soft-peach);
-    transform: translateX(10px);
-}
-
-.podcast-item h4 {
-    font-family: 'Space Grotesk', sans-serif;
-    color: var(--accent-coral);
-    margin-bottom: 0.5rem;
-    font-weight: 600;
-}
-
-.podcast-item p {
-    font-family: 'Inter', sans-serif;
-    font-weight: 400;
-}
 
 .interests-grid {
     display: grid;
@@ -693,33 +670,6 @@ p {
     gap: 1rem;
 }
 
-.interest-item {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    gap: 0.5rem;
-    padding: 1rem;
-    background: var(--light-peach);
-    border-radius: var(--border-radius);
-    transition: var(--transition);
-    text-align: center;
-}
-
-.interest-item:hover {
-    background: var(--medium-peach);
-    transform: scale(1.05);
-}
-
-.interest-item i {
-    color: var(--accent-coral);
-    font-size: 2rem;
-}
-
-.interest-item span {
-    font-family: 'Space Grotesk', sans-serif;
-    font-weight: 500;
-    font-size: 0.9rem;
-}
 
 .quote {
     font-family: 'Inter', sans-serif;
@@ -926,4 +876,4 @@ p {
 
 ::-webkit-scrollbar-thumb:hover {
     background: var(--accent-coral);
-} 
+}  
